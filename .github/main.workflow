@@ -8,6 +8,6 @@ action "Hello World" {
   env = {
     MY_NAME = "Daniel"
   }
-  secrets = ["SECRET1"]
   args = "\"Hello world, I'm $MY_NAME! And the secret to life is $SECRET1\""
+  secrets = ["GITHUB_TOKEN"]
 }
