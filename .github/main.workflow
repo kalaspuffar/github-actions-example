@@ -6,7 +6,7 @@ workflow "New workflow" {
 action "Hello World" {
   uses = "./my-action"
   env = {
-    MY_NAME = "Daniel"
+    MY_NAME = "Daniel Persson"
   }
   args = "\"Hello world, I'm $MY_NAME! And the secret to life is $SECRET1\""
   secrets = ["GITHUB_TOKEN"]
